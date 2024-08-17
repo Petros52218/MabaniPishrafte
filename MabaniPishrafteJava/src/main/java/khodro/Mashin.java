@@ -1,9 +1,8 @@
 package khodro;
 
-public class Mashin { //DRY : Do not Repeat Yourself
+// Mashin yek Khodro ast : Car is a Vehicle // Liskov Substitution Principle
+public class Mashin extends Khodro { //DRY : Do not Repeat Yourself
 
-
-    boolean ayaRoshanAst;
     boolean ayaDarBazAst;
     String mark;
     Ranande ranande;
@@ -15,15 +14,6 @@ public class Mashin { //DRY : Do not Repeat Yourself
         this.mark = mark;
     }
 
-
-
-    public void roshan() {
-        ayaRoshanAst = true;
-    }
-
-    void khamoush(){
-        ayaRoshanAst = false;
-    }
 
     void BazKardanDAR(){
         ayaDarBazAst = true;
