@@ -1,15 +1,21 @@
 package khodro;
 
-public class Khodro {
+public abstract class Khodro {
 
     boolean ayaRoshanAst;
 
     public void roshan() {
+
         ayaRoshanAst = true;
     }
 
     void khamoush(){
+
         ayaRoshanAst = false;
     }
+
+    public abstract boolean ayaDarHaleHarekatAst();
+
+
 
 }

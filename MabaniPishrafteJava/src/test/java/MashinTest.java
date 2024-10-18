@@ -1,3 +1,4 @@
+import khodro.Khodro;
 import khodro.Mashin;
 import org.junit.jupiter.api.Test;
 
@@ -10,8 +11,8 @@ public class MashinTest {
     void Mashin_Bayad_Harekat_Konad_Vaghti_Dar_Baste_Ast_va_Mashin_Roshan_Ast() {
 
 
-        Mashin benz = new Mashin( "Benz");
-        Mashin volvo = new Mashin("volvo");
+        Khodro benz = new Mashin( "Benz");
+        Khodro volvo = new Mashin("volvo");
 
 
 
